@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="pkpass_detail_backfields_TextSize">12dp</dimen>
+    <dimen name="pkpass_detail_imgBarcode_Width">600dp</dimen>
+    <dimen name="pkpass_detail_imgBarcode_Height_Qr">260dp</dimen>
+    <dimen name="pkpass_detail_imgBarcode_Height_Aztec">200dp</dimen>
+    <dimen name="pkpass_detail_imgBarcode_Height_Barcode">108dp</dimen>
+    <dimen name="pkpass_detail_barcodeMessage_MarginBottom">20dp</dimen>
+
+</resources>

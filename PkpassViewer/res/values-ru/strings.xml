@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="li_pkpass_location_guid">как проехать</string>
+    <string name="pkpass_detail_detail">ПОДРОБНЕЙ</string>
+    <string name="pkpass_detail_hide">СКРЫТЬ</string>
+    <string name="dlg_msg_delete_pkpass">Вы хотите удалить pkpass?</string>
+    <string name="dlg_positive">Да</string>
+    <string name="dlg_negative">Нет</string>
+    <string name="toast_pkpass_saved">Pkpass сохранен.</string>
+    <string name="toast_pkpass_deleted">Pkpass удален.</string>
+    <string name="toast_pkpass_already_deleted">Pkpass уже удален.</string>
+
+</resources>

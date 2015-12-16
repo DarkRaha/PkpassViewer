@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  -->
+    <string name="li_pkpass_location_guid">location guide</string>
+    <string name="pkpass_detail_detail">DETAIL</string>
+    <string name="pkpass_detail_hide">HIDE</string>
+    <string name="dlg_msg_delete_pkpass">Do you want delete pkpass?</string>
+    <string name="dlg_positive">Yes</string>
+    <string name="dlg_negative">No</string>
+    <string name="toast_pkpass_saved">Pkpass saved.</string>
+    <string name="toast_pkpass_deleted">Pkpass deleted.</string>
+     <string name="toast_pkpass_already_deleted">Pkpass already deleted.</string>
+    <!--  -->
+    <string name="app_name">PkpassViewer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

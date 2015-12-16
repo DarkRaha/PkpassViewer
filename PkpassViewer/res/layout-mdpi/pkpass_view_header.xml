@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pkvHeader"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp" >
+
+            <ImageView
+                android:id="@+id/pkvLogo"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:id="@+id/pkvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+
+            <include layout="@layout/pkpass_header_right" />
+        </LinearLayout>

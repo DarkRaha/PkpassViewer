@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="semitransparent_white">#77ffffff</drawable>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="cTransparent">#00000000</color>
+   <!-- темная полупрозрачнасть -->
+    <color name="cAlpha">#80000000</color>
+    <color name="cRed">#f00</color>
+    <color name="cBlack">#000</color>
+    <color name="cWhite">#fff</color>
+    <color name="cBlue">#00f</color>
+    <color name="cBlueLight">#2988cc</color>
+    <color name="cGreen">#0f0</color>
+    <color name="cGray66">#666</color>
+    <color name="cFray44">#444</color>
+    <color name="cGray99">#999</color>
+    <color name="cGray91">#919191</color>
+    <color name="cGray55">#555555</color>
+    <color name="cGray33">#333</color>
+    <color name="cGrayF3">#f3f3f3</color>
+    <color name="colorLink">#008b8b</color>
+   </resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="key_norm_size">16dp</dimen>
+    <dimen name="value_norm_size">20dp</dimen>
+    <dimen name="value_big_size">28dp</dimen>
+    <dimen name="thumbnail_size">120dp</dimen>
+    <dimen name="pkpass_top_minheight">200dp</dimen>
+    <dimen name="pkpass_button_size">40dp</dimen>
+
+    <!--  -->
+    <dimen name="qr_aztect_big_img_margins">4dp</dimen>
+    <dimen name="qr_aztect_big_txt_margins">8dp</dimen>
+    <dimen name="qr_aztect_big_txt_size">20dp</dimen>
+
+</resources>

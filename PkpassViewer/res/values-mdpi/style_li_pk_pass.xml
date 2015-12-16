@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="li_pkpass_logo_size">60dp</dimen>
+    <dimen name="li_pkpass_margin">5dp</dimen>
+    <dimen name="li_pkpass_separatar_height">0.5dp</dimen>
+    
+</resources>

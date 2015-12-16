@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dr.android.pkpassviewer"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/NoActionBar" >
+     
+        <activity
+            android:name="com.dr.pkpassviewer.controllers.PkpassActivity"
+            android:label="@string/app_name"
+          
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+                   
+             <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                        android:host="*"
+                        android:scheme="http" />
+                <data android:pathPattern=".*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.pkpass" />
+            </intent-filter>
+
+            <!-- work with non null mimetype: like  dat=file:///mnt/sdcard/Download/pass_card.pkpass typ=unknown_ext_mimeType -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:mimeType="*/*" />
+                <data android:pathPattern=".*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+            </intent-filter>
+
+
+            <!-- work with null mime type like
+           dat=file:///storage/emulated/0/Android/data/com.my.mail/cache/attachments/myemail@mail.ru/other@yandex.ru/14425685200000026789/ticket.pkpass-61490269ticket.pkpass
+           -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="file" />
+                <data android:host="*" />
+                <data android:pathPattern=".*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+                <data android:pathPattern=".*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\..*\\.pkpass" />
+
+            </intent-filter>
+        
+     <!-- work with like
+               dat=content://com.android.email.attachmentprovider/1/106/RAW typ=application/vnd.apple.pkpass
+      -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                        android:host="*"
+                        android:mimeType="*/*"
+                        android:pathPattern=".*.pkpass" />
+            </intent-filter>
+            
+        </activity>
+        
+        
+        <activity
+            android:name="com.dr.pkpassviewer.controllers.PkpassViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

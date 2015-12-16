@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- used by PkpassDetailFragment -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+   
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/pkvAuxTitleLeft" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="16dp" android:textStyle="bold"/>
+         <TextView android:id="@+id/pkvAuxValueLeft" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="28dp"/>
+    </LinearLayout>
+  <View android:layout_height="fill_parent" android:layout_width="0dp" android:layout_weight="1"/>
+   
+  <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/pkvAuxTitleRight" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="16dp" android:textStyle="bold"/>
+         <TextView android:id="@+id/pkvAuxValueRight" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textSize="28dp" />
+    </LinearLayout>
+    
+</LinearLayout>
